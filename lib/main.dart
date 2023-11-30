@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Doctdrive',
-      //child: Image.asset('images/doctor.png'),
       initialRoute: '/app_logo', // Set your initial route here
       routes: {
         '/app_logo': (context) => AppLogoScreen(),

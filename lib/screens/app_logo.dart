@@ -8,9 +8,9 @@ class AppLogoScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('images/network.jpg',
-              width: 150,
-              height: 150,
+            Image.asset('images/doctorr.jpg',
+              width: 300,
+              height: 300,
             ),
             const SizedBox(height: 20),
             const Text(
