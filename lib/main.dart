@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'screens/app_logo.dart';
 import 'screens/signup.dart';
-import 'screens/successfully_signedup.dart';
+//import 'screens/successfully_signedup.dart';
 import 'screens/signin.dart';
+// import 'screens/userdetails.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,10 +16,11 @@ class MyApp extends StatelessWidget {
         title: 'Doctdrive',
       initialRoute: '/app_logo', // Set your initial route here
       routes: {
-        '/app_logo': (context) => AppLogoScreen(),
-        '/signup': (context) => SignUpScreen(),
+        '/app_logo': (context) => const AppLogoScreen(),
+        '/signup': (context) => const SignUpScreen(),
        // '/signup_success': (context) => successfully_signedup(),
-        '/signin': (context) => SignInScreen(),
+        '/signin': (context) => const SignInScreen(),
+        //'/userdetails': (context) => const UserDetails()
       },
       theme: ThemeData(
         primarySwatch: Colors.blue,
